@@ -21,13 +21,13 @@ The original repository's Apache License is provided.
 ## Source changes as required by Apache 2.0 License:
 * Removed Boost dependency
 * Removed easylogging dependency
-* Included <Iterator>
+* Included Iterator
 
 This version of bvh-parser is much more portable as it does not require the boost library.
 
 You still need the C++ STL though, lol.
 
-I am honestly not sure why bvh-parser originally required boost, it seems to be a useless dependency and it was dead simple to clear out (Literally just changing names, adding .c_str() to a couple places, and changing from bf::ifstream to std::ifstream. Also, I had to #include <iterator> for some reason)
+I am honestly not sure why bvh-parser originally required boost, it seems to be a useless dependency and it was dead simple to clear out (Literally just changing names, adding .c_str() to a couple places, and changing from bf::ifstream to std::ifstream. Also, I had to #include iterator for some reason)
 
 
 The MIT License, under which you may use the contents of this repository:
