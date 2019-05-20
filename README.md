@@ -8,7 +8,9 @@ If I made a mistake in licensing this under the MIT then just know that I also m
 
 My own research seems to suggest that it is safe to license under the MIT as long as I do actually provide a copy of the original's apache license and the source changes (see below)
 
-This means that you shouldn't have to provide source changes or a copy of the Apache License like I did, and my research into the topic seems to suggest that this is correct. As described under the MIT License though, you may need to provide a copyright notice.
+This means that you shouldn't have to provide source changes like I did, and my research into the topic seems to suggest that this is correct. As described under the MIT License though, you may need to provide a copyright notice.
+
+You must provide a copy of the Apache 2.0 License, so don't remove it from the repo.
 
 I'm not going to sue you if you get it wrong, I don't give one flying fuck what you do with this code.
 
