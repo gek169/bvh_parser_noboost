@@ -8,7 +8,9 @@ If I made a mistake in licensing this under the MIT then just know that I also m
 
 My own research seems to suggest that it is safe to license under the MIT as long as I do actually provide a copy of the original's apache license and the source changes (see below)
 
-This means that you shouldn't have to provide source changes or a copy of the Apache License like I did, which seems awfully strange however my research into the topic seems to suggest that this is correct.
+This means that you shouldn't have to provide source changes or a copy of the Apache License like I did, and my research into the topic seems to suggest that this is correct. As described under the MIT License though, you may need to provide a copyright notice.
+
+I'm not going to sue you if you get it wrong, I don't give one flying fuck what you do with this code.
 
 I am not a lawyer, this is not legal advice, etc.
 
@@ -17,8 +19,11 @@ The original repository's Apache License is provided.
 ## Source changes as required by Apache 2.0 License:
 * Removed Boost dependency
 * Removed easylogging dependency
+* Included <Iterator>
 
 This version of bvh-parser is much more portable as it does not require the boost library.
+
+You still need the C++ STL though, lol.
 
 I am honestly not sure why bvh-parser originally required boost, it seems to be a useless dependency and it was dead simple to clear out (Literally just changing names, adding .c_str() to a couple places, and changing from bf::ifstream to std::ifstream. Also, I had to #include <iterator> for some reason)
 
